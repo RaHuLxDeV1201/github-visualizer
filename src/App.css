@@ -1,0 +1,14 @@
+/* Center everything inside the main app container */
+.app-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  min-height: 100vh;       /* Spans the full viewport height */
+  background-color: #0d1117; /* GitHub's official dark mode background */
+}
+
+/* Control the dimensions of the logo */
+.logo {
+  width: 150px;            /* Adjust size as needed */
+  height: auto;
+}
