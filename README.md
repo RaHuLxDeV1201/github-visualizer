@@ -2,13 +2,6 @@
 
 > A visually rich, animated interpretation of developer identity powered by the GitHub REST API.
 
-<!-- Tech Stack Badges -->
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-<br />
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://github-visualizer-eta.vercel.app)
 [![Demo Video](https://img.shields.io/badge/🎬_Demo_Video-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Hu2x4kb5dma4ShRwSXhbtwtHuGhP8gf7/view?usp=drive_link)
@@ -40,6 +33,13 @@ DevIdentity Visualizer transforms raw GitHub API data into an engaging, animated
 * **Animations:** Framer Motion
 * **Icons:** Lucide React
 * **Data Source:** [GitHub REST API](https://docs.github.com/en/rest)
+  <!-- Tech Stack Badges -->
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+<br />
 
 ---
 
