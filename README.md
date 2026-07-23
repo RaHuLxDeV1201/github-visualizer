@@ -59,7 +59,7 @@ github-visualizer/
 ```
 
 
-🛡️ API Resilience & Edge Case Handling
+## 🛡️ API Resilience & Edge Case Handling
 This application is engineered to be highly fault-tolerant against GitHub REST API limits and unexpected payloads:
 
 Rate Limit Detection: Gracefully catches 403 errors and explicitly alerts the user when the unauthenticated rate limit (60 requests/hr) is reached, preventing app crashes.
@@ -70,16 +70,19 @@ Zero-Repository Accounts: Implements fallback state UI for accounts with no publ
 
 Empty Bio Fallbacks: Automatically injects default messaging when a user leaves their bio blank ("This developer prefers to let their source code do the talking").
 
-🔑 Environment Variables & Rate Limits
+## 🔑 Environment Variables & Rate Limits
 By default, the app uses unauthenticated GitHub REST API calls (limited to 60 requests/hour per IP). To expand this limit to 5,000 requests/hour during local testing:
 
 Create a .env file in the root directory.
 
 Add your GitHub Personal Access Token:
 
-Code snippet
+```text
 VITE_GITHUB_TOKEN=your_token_here
-🚀 Getting Started (Local Development)
+```
+
+## 🚀 Getting Started (Local Development)
+```text
 To run this project locally on your machine:
 
 Bash
@@ -94,3 +97,4 @@ npm install
 
 # 4. Start the development server
 npm run dev
+```
