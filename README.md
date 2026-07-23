@@ -2,9 +2,9 @@
 
 > A visually rich, animated interpretation of developer identity powered by the GitHub REST API.
 
-**[Live Deployment (Vercel) ](#)** *(https://github-visualizer-eta.vercel.app)*
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://github-visualizer-eta.vercel.app)
+[![Demo Video](https://img.shields.io/badge/🎬_Demo_Video-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1NuOnkSFdSE2x2ckOepOi4_GyldcCEN0o)
 
-**[Demo Video 🎥](#)** *(https://drive.google.com/drive/folders/1NuOnkSFdSE2x2ckOepOi4_GyIdcCEN0o)*
 
 ## Overview
 DevIdentity Visualizer is not just another GitHub clone. It is a creative, polished dashboard designed to transform raw GitHub data into an engaging visual experience. Built as part of a frontend challenge, this project prioritizes smooth animations, resilient API handling, and custom-built data visualization without relying on heavy third-party charting libraries.
