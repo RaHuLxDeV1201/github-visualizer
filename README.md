@@ -2,7 +2,7 @@
 
 > A visually rich, animated interpretation of developer identity powered by the GitHub REST API.
 
-**[Live Deployment (Vercel) ](#)** *(Insert your Vercel link here)*
+**[Live Deployment (Vercel) ](#)** *(github-visualizer-eta.vercel.app)*
 **[Demo Video 🎥](#)** *(Insert your video link here)*
 
 ## Overview
@@ -30,7 +30,7 @@ This application is designed to be highly fault-tolerant against the realities o
 *   **Styling:** Tailwind CSS
 *   **Animations:** Framer Motion
 *   **Icons:** Lucide React
-*   **Data Source:** GitHub REST API (`/users/{username}` & `/users/{username}/repos`)
+*   **Data Source:** GitHub REST API (`/users/{RaHuLxDeV1201}` & `/users/{RaHuLxDeV1201}/github-visualizer`)
 
 ## Getting Started (Local Development)
 
