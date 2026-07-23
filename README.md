@@ -39,7 +39,7 @@ To run this project locally on your machine:
 
 ```bash
 # 1. Clone the repository
-git clone git clone https://github.com/RaHuLxDeV1201/github-visualizer.git  
+   **git clone https://github.com/RaHuLxDeV1201/github-visualizer.git** 
 
 # 2. Navigate into the directory
 cd github-visualizer
