@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, ShieldAlert, Users, BookOpen, X, ArrowUp } from 'lucide-react';
-import { fetchGitHubData } from './services/githubApi';
+import { Search, ShieldAlert, Users, UserPlus, BookOpen, X, ArrowUp } from 'lucide-react'; import { fetchGitHubData } from './services/githubApi';
 import { LanguageDistribution, RepositoryCard } from "./components/RepoDashboard";
 
 export default function App() {
@@ -69,32 +68,25 @@ export default function App() {
             DevIdentity Visualizer
           </h1>
           <p className="text-slate-400 text-xs sm:text-sm mt-2 font-medium tracking-wide">
-            A visually rich, animated interpretation of developer identity  
+            A visually rich, animated interpretation of developer identity
           </p>
         </header>
 
         {/* Input Interface Wrapper */}
         <form onSubmit={handleSearch} className="flex gap-3 mb-12 max-w-lg mx-auto">
-          <div className="relative flex-1">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 w-4 h-4" />
-            <input
-              type="text"
-              placeholder="Enter GitHub developer username..."
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              className="w-full pl-10 pr-10 py-3 bg-slate-900/60 backdrop-blur-md border border-slate-800/80 rounded-xl focus:outline-none focus:ring-2 focus:ring-cyan-500 text-sm placeholder-slate-500 text-white transition-all shadow-inner"
-            />
-            
-            {username && (
-              <button
-                type="button"
-                onClick={handleClear}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300 transition-colors cursor-pointer"
-                aria-label="Clear input"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            )}
+          <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-5 text-xs font-semibold text-slate-300">
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/40 border border-white/5 shadow-sm">
+              <Users className="w-3.5 h-3.5 text-slate-400" /> Followers: <span className="font-mono text-cyan-400 font-bold">{data.profile.followers}</span>
+            </span>
+
+            {/* NEW FOLLOWING BADGE ADDED HERE */}
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/40 border border-white/5 shadow-sm">
+              <UserPlus className="w-3.5 h-3.5 text-slate-400" /> Following: <span className="font-mono text-cyan-400 font-bold">{data.profile.following || 0}</span>
+            </span>
+
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/40 border border-white/5 shadow-sm">
+              <BookOpen className="w-3.5 h-3.5 text-slate-400" /> Public Repos: <span className="font-mono text-cyan-400 font-bold">{data.profile.public_repos}</span>
+            </span>
           </div>
           <button type="submit" className="px-5 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-sm font-bold rounded-xl transition-all shadow-lg shadow-cyan-500/10 active:scale-98 cursor-pointer">
             Analyze Profile
