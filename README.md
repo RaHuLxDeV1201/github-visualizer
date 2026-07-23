@@ -103,3 +103,7 @@ npm install
 # 4. Start the development server
 npm run dev
 ```
+
+<p align="center">
+  Engineered by <a href="https://github.com/RaHuLxDeV1201"><strong>RaHuLxDeV</strong></a>
+</p>
