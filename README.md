@@ -1,16 +1,41 @@
-# React + Vite
+# DevIdentity Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A visually rich, animated interpretation of developer identity powered by the GitHub REST API.
 
-Currently, two official plugins are available:
+**[Live Deployment (Vercel) ](#)** *(Insert your Vercel link here)*
+**[Demo Video 🎥](#)** *(Insert your video link here)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
+DevIdentity Visualizer is not just another GitHub clone. It is a creative, polished dashboard designed to transform raw GitHub data into an engaging visual experience. Built as part of a frontend challenge, this project prioritizes smooth animations, resilient API handling, and custom-built data visualization without relying on heavy third-party charting libraries.
 
-## React Compiler
+## Core Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Custom Data Visualization:** Features a **100% hand-built SVG radial donut chart** to display language distribution. It includes interactive hover states, dynamic center text, and custom mathematical calculations for the `stroke-dasharray`—no Chart.js or Recharts used here.
+*   **Comprehensive Profile Identity:** Displays user avatars, names, biographies, follower/following counts, and repository metrics in a clean, glassmorphism-inspired UI.
+*   **Top Performance Metrics:** Renders top repositories as interactive cards detailing primary languages, star counts, fork counts, and descriptions.
+*   **Fluid Animations:** Utilizes Framer Motion for smooth state transitions (Loading → Loaded, Error states) and micro-interactions, ensuring the UI never feels rigid or hard-cut.
+*   **Responsive & Intentional Design:** Built with Tailwind CSS, the dashboard adapts seamlessly to all screen sizes while maintaining a strict, visually striking dark theme.
 
-## Expanding the ESLint configuration
+## API Resilience & Edge Case Handling
+This application is designed to be highly fault-tolerant against the realities of the GitHub REST API:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **Rate Limit Detection:** Gracefully catches 403 errors and explicitly warns the user if the unauthenticated rate limit (60 requests/hr) is exceeded, rather than crashing.
+*   **Missing Users (404):** Displays a friendly UI prompt if a searched developer identity does not exist.
+*   **Zero-Repository Users:** Implements a specific fallback UI for developers who have accounts but no public repositories to visualize.
+*   **Empty Bio Fallbacks:** Injects default messaging when a user prefers to leave their GitHub bio blank ("This developer prefers to let their source code do the talking").
+
+## Tech Stack
+
+*   **Framework:** React.js (via Vite)
+*   **Styling:** Tailwind CSS
+*   **Animations:** Framer Motion
+*   **Icons:** Lucide React
+*   **Data Source:** GitHub REST API (`/users/{username}` & `/users/{username}/repos`)
+
+## Getting Started (Local Development)
+
+To run this project locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/RaHuLxDeV1201/github-visualizer.git](https://github.com/RaHuLxDeV1201/github-visualizer.git)
