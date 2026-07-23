@@ -3,6 +3,7 @@
 > A visually rich, animated interpretation of developer identity powered by the GitHub REST API.
 
 **[Live Deployment (Vercel) ](#)** *(https://github-visualizer-eta.vercel.app)*
+
 **[Demo Video 🎥](#)** *(https://drive.google.com/drive/folders/1NuOnkSFdSE2x2ckOepOi4_GyIdcCEN0o)*
 
 ## Overview
