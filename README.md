@@ -21,8 +21,9 @@ It is a creative, polished dashboard designed to transform raw GitHub data into 
 *   **Top Performance Metrics:** Renders top repositories as interactive cards detailing primary languages, star counts, fork counts, and descriptions.
 *   **Fluid Animations:** Utilizes Framer Motion for smooth state transitions (Loading → Loaded, Error states) and micro-interactions, ensuring the UI never feels rigid or hard-cut.
 *   **Responsive & Intentional Design:** Built with Tailwind CSS, the dashboard adapts seamlessly to all screen sizes while maintaining a strict, visually striking dark theme.
-   ## 📁 Project Structure
 
+## 📁 Project Structure
+<p>
 github-visualizer/
 ├── public/              # Static assets & preview images
 ├── src/
@@ -33,6 +34,7 @@ github-visualizer/
 │   └── main.jsx         # Vite entry point
 ├── .env.example         # Template for environment variables
 └── README.md
+</p>
 
 ## API Resilience & Edge Case Handling
 This application is designed to be highly fault-tolerant against the realities of the GitHub REST API:
