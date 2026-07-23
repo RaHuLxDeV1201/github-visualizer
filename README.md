@@ -56,6 +56,7 @@ github-visualizer/
 │   └── main.jsx         # Vite entry point
 ├── .env.example         # Template for environment variables
 └── README.md
+```
 
 
 🛡️ API Resilience & Edge Case Handling
