@@ -23,18 +23,19 @@ It is a creative, polished dashboard designed to transform raw GitHub data into 
 *   **Responsive & Intentional Design:** Built with Tailwind CSS, the dashboard adapts seamlessly to all screen sizes while maintaining a strict, visually striking dark theme.
 
 ## 📁 Project Structure
-<p>
+
+```text
 github-visualizer/
 ├── public/              # Static assets & preview images
 ├── src/
 │   ├── components/      # UI components (Cards, Search, Charts)
 │   ├── hooks/           # Custom hooks for GitHub API fetching
-│   ├── utils/           # SVG math calculations & calculations
+│   ├── utils/           # SVG math calculations
 │   ├── App.jsx          # Root application component
 │   └── main.jsx         # Vite entry point
 ├── .env.example         # Template for environment variables
 └── README.md
-</p>
+```
 
 ## API Resilience & Edge Case Handling
 This application is designed to be highly fault-tolerant against the realities of the GitHub REST API:
