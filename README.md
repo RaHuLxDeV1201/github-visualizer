@@ -38,6 +38,7 @@ DevIdentity Visualizer transforms raw GitHub API data into an engaging, animated
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+[![Lucide React](https://img.shields.io/badge/Lucide_React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://lucide.dev)
 
 <br />
 
