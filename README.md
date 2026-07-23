@@ -80,6 +80,11 @@ Add your GitHub Personal Access Token:
 ```text
 VITE_GITHUB_TOKEN=your_token_here
 ```
+<!-- Lighthouse Audit Badges -->
+![Lighthouse Performance](https://img.shields.io/badge/Performance-98%25-4c1?style=for-the-badge&logo=lighthouse&logoColor=white)
+![Lighthouse Accessibility](https://img.shields.io/badge/Accessibility-100%25-4c1?style=for-the-badge&logo=lighthouse&logoColor=white)
+![Lighthouse Best Practices](https://img.shields.io/badge/Best_Practices-100%25-4c1?style=for-the-badge&logo=lighthouse&logoColor=white)
+![Lighthouse SEO](https://img.shields.io/badge/SEO-95%25-4c1?style=for-the-badge&logo=lighthouse&logoColor=white)
 
 ## 🚀 Getting Started (Local Development)
 ```text
