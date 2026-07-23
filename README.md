@@ -23,7 +23,7 @@ It is a creative, polished dashboard designed to transform raw GitHub data into 
 *   **Responsive & Intentional Design:** Built with Tailwind CSS, the dashboard adapts seamlessly to all screen sizes while maintaining a strict, visually striking dark theme.
    ## 📁 Project Structure
 
-```text
+
 github-visualizer/
 ├── public/              # Static assets & preview images
 ├── src/
