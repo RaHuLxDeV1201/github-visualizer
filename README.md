@@ -10,8 +10,9 @@
 
 DevIdentity Visualizer is not just another GitHub clone...
 
-![DevIdentity Visualizer Preview](./assets/preview.png)
-DevIdentity Visualizer is not just another GitHub clone. It is a creative, polished dashboard designed to transform raw GitHub data into an engaging visual experience. Built as part of a frontend challenge, this project prioritizes smooth animations, resilient API handling, and custom-built data visualization without relying on heavy third-party charting libraries.
+![DevIdentity Visualizer Preview](./public/preview.png)
+
+It is a creative, polished dashboard designed to transform raw GitHub data into an engaging visual experience. Built as part of a frontend challenge, this project prioritizes smooth animations, resilient API handling, and custom-built data visualization without relying on heavy third-party charting libraries.
 
 ## Core Features
 
