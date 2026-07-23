@@ -22,8 +22,6 @@ It is a creative, polished dashboard designed to transform raw GitHub data into 
 *   **Fluid Animations:** Utilizes Framer Motion for smooth state transitions (Loading → Loaded, Error states) and micro-interactions, ensuring the UI never feels rigid or hard-cut.
 *   **Responsive & Intentional Design:** Built with Tailwind CSS, the dashboard adapts seamlessly to all screen sizes while maintaining a strict, visually striking dark theme.
    ## 📁 Project Structure
-
-
 github-visualizer/
 ├── public/              # Static assets & preview images
 ├── src/
