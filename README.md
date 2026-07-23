@@ -37,6 +37,15 @@ This application is designed to be highly fault-tolerant against the realities o
 
 To run this project locally on your machine:
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/RaHuLxDeV1201/github-visualizer.git](https://github.com/RaHuLxDeV1201/github-visualizer.git)
+```bash
+# 1. Clone the repository
+git clone [https://github.com/RaHuLxDeV1201/github-visualizer.git](https://github.com/RaHuLxDeV1201/github-visualizer.git)
+
+# 2. Navigate into the directory
+cd github-visualizer
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
