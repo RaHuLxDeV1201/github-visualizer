@@ -21,6 +21,19 @@ It is a creative, polished dashboard designed to transform raw GitHub data into 
 *   **Top Performance Metrics:** Renders top repositories as interactive cards detailing primary languages, star counts, fork counts, and descriptions.
 *   **Fluid Animations:** Utilizes Framer Motion for smooth state transitions (Loading → Loaded, Error states) and micro-interactions, ensuring the UI never feels rigid or hard-cut.
 *   **Responsive & Intentional Design:** Built with Tailwind CSS, the dashboard adapts seamlessly to all screen sizes while maintaining a strict, visually striking dark theme.
+   ## 📁 Project Structure
+
+```text
+github-visualizer/
+├── public/              # Static assets & preview images
+├── src/
+│   ├── components/      # UI components (Cards, Search, Charts)
+│   ├── hooks/           # Custom hooks for GitHub API fetching
+│   ├── utils/           # SVG math calculations & calculations
+│   ├── App.jsx          # Root application component
+│   └── main.jsx         # Vite entry point
+├── .env.example         # Template for environment variables
+└── README.md
 
 ## API Resilience & Edge Case Handling
 This application is designed to be highly fault-tolerant against the realities of the GitHub REST API:
@@ -29,6 +42,15 @@ This application is designed to be highly fault-tolerant against the realities o
 *   **Missing Users (404):** Displays a friendly UI prompt if a searched developer identity does not exist.
 *   **Zero-Repository Users:** Implements a specific fallback UI for developers who have accounts but no public repositories to visualize.
 *   **Empty Bio Fallbacks:** Injects default messaging when a user prefers to leave their GitHub bio blank ("This developer prefers to let their source code do the talking").
+
+## 🔑 Environment Variables & Rate Limits
+
+By default, the app uses unauthenticated GitHub REST API calls (limited to 60 requests/hour per IP). To expand this limit to 5,000 requests/hour:
+
+1. Create a `.env` file in the root directory.
+2. Add your GitHub Personal Access Token:
+   ```env
+   VITE_GITHUB_TOKEN=your_token_here
 
 ## Tech Stack
 
